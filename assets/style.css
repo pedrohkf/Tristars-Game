@@ -3,6 +3,9 @@
     text-decoration: none;
 }
 
+body{
+    background-color: #082040;
+}
 .container {
     max-width: 100%;
     position: relative;
@@ -195,7 +198,6 @@
 
 .produtos{
     display: flex;
-    background-color: #40537a;
     width: 58rem;
     margin-left: 21rem;
     padding-top: 4rem;
@@ -257,11 +259,11 @@
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+    column-gap: 1rem;
 }
 
 .afiliado img {
     width: 3rem;
-    border-radius: 50%;
 }
 
 .afiliado ul {
@@ -291,13 +293,14 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    height: 10rem;
+    margin-top: 6rem;
 }
 
 .rodape h1{
     margin: 0rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .visit{
     margin: 0rem;
@@ -311,16 +314,16 @@
     border-radius: 10px;
 }
 
-.visit img {
+.rome{
     width: 7rem;
-    border-radius: 3px;
+    border-radius: 50%;
+}
+
+.vogue{
+    width: 1rem;
 }
 
 @media (max-width: 1655px) {
-    .container{
-        background-color: rgb(216, 128, 128);
-    }
-
     .conteudo{
         margin-left: 1.5rem;
     }
@@ -332,11 +335,6 @@
 }
 
 @media (max-width: 1400px){
-    .container{
-        max-width: 1400px;
-        background-color: bisque;
-    }
-
     .person{
         margin-top: 1rem;
         width: 7rem;
@@ -402,10 +400,6 @@
 }
 
 @media (max-width: 1300px) {
-    .container{
-        background-color: cyan;
-    }
-
     .head img {
         margin-left: 15rem;
     }
@@ -444,10 +438,6 @@
 }
 
 @media (max-width: 1180px){
-    .container{
-        background-color: blueviolet;
-    }
-
     .head img {
         width: 7rem;
         height: 6rem;
@@ -482,13 +472,8 @@
 }
 
 @media (max-width: 1100px){
-    .container{
-        background-color: deepskyblue;
-    }
-
     .topsgames{
         margin-left: -3.5rem;
-        background-color: #082040;
     }
 
     .selects {
@@ -524,10 +509,6 @@
 }
 
 @media(max-width: 1075px){
-    .container{
-        background-color: green;
-    }
-
     .select img {
         width: 8rem;
     }
@@ -583,20 +564,12 @@
         column-gap: 4rem;
     }
 
-    .afiliado{
-        background-color: #031625;
-    }
-
     .rodape{
         margin-left: 0rem;
     }
 }
 
 @media(max-width: 910px){
-    .container{
-        background-color: cadetblue;
-    }
-
     .head li{
         display: none;
     }
@@ -615,7 +588,6 @@
     .topsgames{
         margin: 0rem;
         margin-left: -16rem;
-        background-color: aliceblue;
         width: 10rem;
         margin-top: -40rem;
     }
@@ -643,7 +615,6 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        background-color: antiquewhite;
         margin: 0;
     }
 
@@ -658,10 +629,6 @@
 }
 
 @media(max-width: 740px){
-    .container{
-        background-color: chocolate;
-    }
-
     .topsgames{
         margin-left: -19rem;
     }
@@ -672,10 +639,6 @@
 }
 
 @media(max-width: 690px) {
-    .container{
-        background-color: crimson;
-    }
-
     .capa, .capaTwo{
         width: 10rem;
         height: 9rem;
@@ -701,10 +664,6 @@
 }
 
 @media(max-width:595px){
-    .container{
-        background-color: rgb(135, 135, 202);
-    }
-
     .produtos{
         margin-left: 14rem;
     }
@@ -739,10 +698,6 @@
 }
 
 @media(max-width: 400px){
-    .container{
-        background-color: rgb(10, 137, 141);
-    }
-
     .produtos{
         margin-left: 10rem;
         width: 10rem;
@@ -755,20 +710,12 @@
 }
 
 @media(max-width: 380px){
-    .container{
-        background-color: cadetblue;
-    }
-
     .topsgames{
         margin-left: -19rem;
     }
 }
 
 @media(max-width: 415px){
-    .container{
-        background-color: cadetblue;
-    }
-
     .produtos{
         width: 10rem;
 
@@ -800,10 +747,6 @@
 }
 
 @media(max-width: 380px){
-    .container{
-        background-color: cadetblue;
-    }
-
     .topsgames{
         margin-left: -20.5rem; 
     }
@@ -834,10 +777,6 @@
 }
 
 @media(max-width: 290px){
-    .container{
-        background-color: brown;
-    }
-
     .categorias{
         row-gap: 0rem;
         column-gap: 0rem;
