@@ -4,7 +4,7 @@
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 100%;
     position: relative;
     margin: auto;
     display: flex;
@@ -37,7 +37,10 @@
 }
 
 .head img {
+    margin-top: -1rem;
     margin-left: 29rem;
+    width: 10rem;
+    height: 9rem;
 }
 
 .catego {
@@ -53,11 +56,6 @@
     align-items: center;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-img {
-    width: 7rem;
-    margin-left: 18.5rem;
 }
 
 .conteudo {
@@ -139,17 +137,15 @@ img {
 }
 
 .setaLeft {
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
     margin-top: 5rem;
     margin-left: 1rem;
 }
 
 .setaRigth {
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
     margin-top: 5rem;
-    margin-left: -71rem;
+    margin-left: -67rem;
 }
 
 .setaLeft:hover {
@@ -160,106 +156,94 @@ img {
     cursor: pointer;
 }
 
-
-.produtos h1 {
-    margin-top: 0rem;
-    font-size: 25px;
-    margin-top: 5rem;
-    margin-left: 19rem;
+.selects h1 {
+    font-size: 20px;
+    margin-left: 21rem;
+    margin-top: 10rem;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.apps {
+.select{
     display: flex;
+    column-gap: 2rem;
+    margin-left: 21rem;
+    margin-top: 0.5rem;
+    width: 61%;
+}
+
+.select img {
+    width: 13rem;
+}
+
+.produtos img {
+    display: flex;
+    width: 7rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.produtos div{
+    display: flex;
+    width: 9rem;
+    height: 12rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0036a3;
+    border-radius: 5px;
+}
+
+.produtos{
+    display: flex;
+    background-color: #40537a;
+    width: 58rem;
+    margin-left: 21rem;
     padding-top: 4rem;
-    width: 80%;
-    margin-left: 19rem;
     margin-top: 2rem;
-}
-
-.sonic {
-    width: 12rem;
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
+    column-gap: 10rem;
     justify-content: center;
-    background-color: #0036a3;
-    border-radius: 5px;
 }
 
-.roblox {
-    width: 12rem;
-    height: 14rem;
-    margin-left: 10rem;
+.produtos p {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #0036a3;
-    border-radius: 5px;
-}
-
-.editor {
-    width: 12rem;
-    margin-left: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #0036a3;
-    border-radius: 5px;
-}
-
-.sonic img {
-    margin-left: 2.5rem;
-    margin-top: 0rem;
-}
-
-.roblox img {
-    margin-left: 2.5rem;
-    margin-top: 0rem;
-}
-
-.editor img {
-    margin-left: 2.5rem;
-    margin-top: 0rem;
-}
-
-.apps p {
-    text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: white;
     background-color: #052666;
     width: 6rem;
     height: 2rem;
     justify-content: center;
     align-items: center;
-    display: flex;
-    margin-left: 2.8rem;
 }
 
-.description {
+.sonic{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 70vh;
 }
 
-.description img {
-    width: 20rem;
-    padding-top: 10rem;
-    margin-left: 17rem;
+.roblox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.description p {
-    width: 55rem;
-    margin-top: 10rem;
-    font-size: 20px;
+.editor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.description h1 {
-    width: 16rem;
-    margin-left: -76rem;
-    margin-top: -10rem;
-    color: white;
+.sonic p{
+    margin-left: 0.4rem;
+}
+
+.roblox p{
+    margin-left: 0.4rem;
+    margin-top: 2rem;
+}
+
+.editor p{
+    margin-left: 0.4rem;
 }
 
 .afiliado h1 {
@@ -271,15 +255,12 @@ img {
 
 .afiliado {
     display: flex;
-    flex-direction: column;
-    height: 40vh;
-    padding-top: 5rem;
+    justify-content: center;
+    padding-top: 1rem;
 }
 
 .afiliado img {
-    width: 15rem;
-    margin-left: 20rem;
-    margin-top: -13rem;
+    width: 3rem;
     border-radius: 50%;
 }
 
@@ -303,32 +284,606 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.rodape {
-    width: 80%;
-    margin-left: 11.9rem;
-    height: 30vh;
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-.rodape h1 {
-    margin-left: 17rem;
-    width: 10rem;
-    margin-top: 4rem;
+.rodape h1{
+    margin: 0rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.visit{
+    margin: 0rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+    background-color: #031625;
+    border-radius: 10px;
 }
 
 .visit img {
-    width: 3rem;
-    margin-top: 0.6rem;
-    margin-left: 23rem;
+    width: 7rem;
     border-radius: 3px;
 }
 
-.visit {
-    background-color: #031625;
-    width: 30rem;
-    margin-left: 18rem;
-    height: 5rem;
-    margin-top: 3rem;
-    border-radius: 10px;
+@media (max-width: 1655px) {
+    .container{
+        background-color: rgb(216, 128, 128);
+    }
+
+    .conteudo{
+        margin-left: 1.5rem;
+    }
+
+    .head img{
+        margin-left: 20rem;
+    }
+    
+}
+
+@media (max-width: 1400px){
+    .container{
+        max-width: 1400px;
+        background-color: bisque;
+    }
+
+    .person{
+        margin-top: 1rem;
+        width: 7rem;
+        height: 7rem;
+        justify-content: center;
+    }
+
+    .topsgames p{
+        font-size: 22px;
+        margin-top: 0.8rem;
+    }
+
+    .description{
+        margin-left: -12rem;
+    }
+
+    .topsgames{
+        margin-left: -1rem;
+    }
+
+    .capa, .capaTwo{
+        width: 14rem;
+    }
+
+    .setaRigth {
+        margin-left: -51rem;
+    }
+
+    .slides{
+        width: 16rem;
+        height: 14rem;
+    }
+
+    .select img {
+        width: 10rem;
+    }
+
+    .select {
+        margin-left: 19rem;
+    }
+
+    .selects h1 {
+        margin-left: 19rem;
+    }
+    
+    .produtos img{
+        margin-left: 0.5rem;
+    }
+
+    .produtos p{
+        margin-left: 1rem;
+    }
+
+    .produtos{
+        margin-left: 19rem;
+        width: 46rem;
+        column-gap: 5rem;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container{
+        background-color: cyan;
+    }
+
+    .head img {
+        margin-left: 15rem;
+    }
+
+    .description img {
+        width: 13rem;
+    }
+
+    .description h1 {
+        margin-left: -69rem;
+    }
+
+    .select img {
+        width: 10rem;
+    }
+
+    .select {
+        margin-left: 19rem;
+    }
+
+    .selects h1 {
+        margin-left: 19rem;
+    }
+
+    .produtos{
+        margin-left: 16rem;
+    }
+
+    .produtos div {
+        width: 9rem;
+    }
+
+    .produtos img {
+        width: 6rem;
+    }
+}
+
+@media (max-width: 1180px){
+    .container{
+        background-color: blueviolet;
+    }
+
+    .head img {
+        width: 7rem;
+        height: 6rem;
+        margin-top: 0.5rem;
+        margin-left: 13rem;
+    }
+
+    .produtos img {
+        margin-left: 1.5rem;
+    }
+
+    .sonic{
+        width: 10rem;
+    }
+
+    .sonic{
+        width: 10rem;
+    }
+    
+    .sonic{
+        width: 10rem;
+    }
+
+    .description img {
+        width: 10rem;
+        margin-left: 13rem;
+    }
+
+    .description h1 {
+        margin-left: -63rem;
+    }
+}
+
+@media (max-width: 1100px){
+    .container{
+        background-color: deepskyblue;
+    }
+
+    .topsgames{
+        margin-left: -3.5rem;
+        background-color: #082040;
+    }
+
+    .selects {
+        margin-left: -3rem;
+    }
+
+    .produtos img {
+        margin-left: 1rem;
+    }
+
+    .produtos p{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .sonic{
+        width: 10rem;
+        height: 11rem;
+    }
+
+    .roblox {
+        width: 10rem;
+        height: 11rem;
+    }
+
+    .roblox img {
+        margin-top: 0.7rem;
+    }
+    .editor {
+        width: 10rem;
+        height: 11rem;
+    }
+}
+
+@media(max-width: 1075px){
+    .container{
+        background-color: green;
+    }
+
+    .select img {
+        width: 8rem;
+    }
+
+    .topsgames{
+        margin-left: -5rem;   
+    }
+
+    .selects{
+        margin-left: -0.7rem;
+    }
+
+    .head img{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 4rem;
+    }
+
+    .principais img {
+        width: 12rem;
+    }
+
+    .setaLeft, .setaRigth{
+        display: none;
+    }
+
+    .slides {
+        width: 12rem;
+        height: 12rem;
+        font-size: 1px;
+    }
+
+    .slides p {
+        width: 15rem;
+        font-size: 17px;
+        margin-left: 1rem;
+    }
+
+    .slides img {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 3.5rem;
+    }
+
+    .selects{
+        display: none;
+    }
+
+    .produtos{
+        margin-left: 13rem;
+        margin-top: 9rem;
+        width: 40rem;
+        column-gap: 4rem;
+    }
+
+    .afiliado{
+        background-color: #031625;
+    }
+
+    .rodape{
+        margin-left: 0rem;
+    }
+}
+
+@media(max-width: 910px){
+    .container{
+        background-color: cadetblue;
+    }
+
+    .head li{
+        display: none;
+    }
+
+    .head img{
+        margin: 0rem;
+        width: 6.3rem;
+        height: 5.5rem;
+    }
+
+    .head {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topsgames{
+        margin: 0rem;
+        margin-left: -16rem;
+        background-color: aliceblue;
+        width: 10rem;
+        margin-top: -40rem;
+    }
+
+    .conteudo{
+        margin-top: 5rem;   
+    }
+
+    .produtos{
+        display: flex;
+        flex-direction: column;
+        width: 13rem;
+        margin-left: 22rem;
+        margin-top: 3rem;
+        row-gap: 3rem;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        margin: 0;
+    }
+
+    .rodape h1{
+        margin: 0rem;
+    }
+    .visit{
+        margin: 0rem;
+        margin-top: 3rem;
+
+    }
+}
+
+@media(max-width: 740px){
+    .container{
+        background-color: chocolate;
+    }
+
+    .topsgames{
+        margin-left: -19rem;
+    }
+
+    .produtos{
+        margin-left: 20rem;
+    }
+}
+
+@media(max-width: 690px) {
+    .container{
+        background-color: crimson;
+    }
+
+    .capa, .capaTwo{
+        width: 10rem;
+        height: 9rem;
+    }
+
+    .slides{
+        width: 10rem;
+        height: 9rem;
+    }
+
+    .slides p{
+        font-size: 14px;
+    }
+
+    .slides img {
+        margin-left: 2.6rem;
+        width: 4rem;
+    }
+
+    .produtos{
+        margin-left: 15rem;
+    }
+}
+
+@media(max-width:595px){
+    .container{
+        background-color: rgb(135, 135, 202);
+    }
+
+    .produtos{
+        margin-left: 14rem;
+    }
+
+    .capaTwo{
+        display: none;
+    }
+
+    .topsgames{
+        margin-left: -18rem;
+    }
+
+    .conteudo p{
+        font-size: 12px;
+    }
+    .conteudo li{
+        font-size: 12px;
+    }
+    .produtos{
+        margin-left: 12rem;
+    }
+}
+
+@media(max-width: 480px){
+    .container{
+        background-color: rgb(10, 137, 141);
+    }
+
+    .topsgames{
+        margin-left: -20rem;
+    }
+}
+
+@media(max-width: 400px){
+    .container{
+        background-color: rgb(10, 137, 141);
+    }
+
+    .produtos{
+        margin-left: 10rem;
+        width: 10rem;
+    }
+
+    .topsgames{
+        margin-left: -19rem;
+
+    }
+}
+
+@media(max-width: 380px){
+    .container{
+        background-color: cadetblue;
+    }
+
+    .topsgames{
+        margin-left: -19rem;
+    }
+}
+
+@media(max-width: 415px){
+    .container{
+        background-color: cadetblue;
+    }
+
+    .produtos{
+        width: 10rem;
+
+    }
+
+    .capa{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .slides{
+        height: 7rem;
+        width: 8rem;
+    }
+
+    .slides img {
+        width: 2.8rem;
+        margin-left: 2rem;
+    }
+
+    .slides p {
+        font-size: 10px;
+        margin-top: 0.6rem;
+    }
+
+    .visit{
+        width: 98%;
+    }
+}
+
+@media(max-width: 380px){
+    .container{
+        background-color: cadetblue;
+    }
+
+    .topsgames{
+        margin-left: -20.5rem; 
+    }
+
+    .capa{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .slides{
+        height: 7rem;
+        width: 8rem;
+    }
+
+    .slides img {
+        width: 2.8rem;
+        margin-left: 2rem;
+    }
+
+    .slides p {
+        font-size: 10px;
+        margin-top: 0.6rem;
+    }
+
+    .visit{
+        width: 98%;
+    }
+}
+
+@media(max-width: 290px){
+    .container{
+        background-color: brown;
+    }
+
+    .categorias{
+        row-gap: 0rem;
+        column-gap: 0rem;
+        margin-left: -1rem;
+    }
+
+    .topsgames{
+        flex-direction: column;
+    }
+
+    .slides{
+        width: 6rem;
+        height: 5rem;
+        margin-left: 7rem;
+    }
+
+    .slides p {
+        font-size: 8px;
+        margin-left: 0.7rem;
+    }
+
+    .slides img {
+        width: 2rem;
+        margin-top: 0.3rem;
+    }
+
+    .disponivel{
+        margin-top: -0.2rem;
+    }
+
+    .capa{
+        width: 5rem;
+        height: 5rem;
+        display: none;
+    }
+
+    .categorias p{
+        font-size: 10px;
+    }
+    .categorias li{
+        font-size: 10px;
+        margin-top: 0rem;
+        row-gap: 0rem;
+    }
+
+    .produtos{
+        margin-left: 5rem;
+    }
 }
