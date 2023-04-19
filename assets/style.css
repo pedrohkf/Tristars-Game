@@ -688,10 +688,6 @@ body{
 }
 
 @media(max-width: 480px){
-    .container{
-        background-color: rgb(10, 137, 141);
-    }
-
     .topsgames{
         margin-left: -20rem;
     }
